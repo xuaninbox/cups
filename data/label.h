@@ -15,4 +15,6 @@
 #define ZEBRA_ZPL       0x12            /* Zebra ZPL-based printers */
 #define ZEBRA_CPCL      0x13            /* Zebra CPCL-based printers */
 
+#define BEEPRT		     0x14		/* Beeprt, Rollo, Munbyn */
+
 #define INTELLITECH_PCL	0x20		/* Intellitech PCL-based printers */

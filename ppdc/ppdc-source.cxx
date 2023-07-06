@@ -3528,6 +3528,10 @@ ppdcSource::write_file(const char *f)	// I - File to write
 		  cupsFilePuts(fp, "$ZEBRA_CPCL\n");
 		  break;
 
+         case BEEPRT :
+		  cupsFilePuts(fp, "$BEEPRT\n");
+		  break;
+
 	      case INTELLITECH_PCL :
 		  cupsFilePuts(fp, "$INTELLITECH_PCL\n");
 		  break;
