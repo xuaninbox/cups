@@ -173,6 +173,68 @@ Version "2.4"
   Darkness 3 Dark
 }
 
+// BEEPRT Label printer
+{
+  Manufacturer "BEEPRT"
+  ModelName "Label Printer"
+  Attribute NickName "" "BEEPRT Label Printer"
+  PCFileName "beerpt.ppd"
+  DriverType label
+  ModelNumber $BEEPRT
+  Throughput 1
+  ManualCopies Yes
+  ColorDevice No
+  Attribute "cupsSNMPSupplies" "" "false"
+
+  HWMargins 0 0 0 0
+  VariablePaperSize Yes
+  MinSize 36 36
+  MaxSize 288 3600
+
+  *Resolution k 1 0 0 0 300dpi
+
+  MediaSize w90h18
+  MediaSize w90h162
+  MediaSize w108h18
+  MediaSize w108h36
+  MediaSize w108h72
+  MediaSize w108h144
+  MediaSize w144h26
+  MediaSize w144h36
+  MediaSize w144h72
+  MediaSize w144h90
+  MediaSize w144h288
+  MediaSize w144h396
+  MediaSize w162h36
+  MediaSize w162h90
+  MediaSize w162h288
+  MediaSize w162h396
+  MediaSize w171h396
+  MediaSize w180h72
+  MediaSize w180h144
+  MediaSize w198h90
+  MediaSize w216h72
+  MediaSize w216h90
+  MediaSize w216h144
+  MediaSize w216h216
+  MediaSize w216h360
+  MediaSize w234h144
+  MediaSize w234h360
+  MediaSize w234h396
+  MediaSize w234h419
+  MediaSize w234h563
+  MediaSize w252h72
+  MediaSize w288h72
+  MediaSize w288h144
+  MediaSize w288h180
+  MediaSize w288h216
+  MediaSize w288h288
+  *MediaSize w288h360
+  MediaSize w288h432
+  MediaSize w288h468
+  MediaSize w288h936
+}
+
 // Epson
 {
   Manufacturer "Epson"

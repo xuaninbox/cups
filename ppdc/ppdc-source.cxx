@@ -3528,7 +3528,7 @@ ppdcSource::write_file(const char *f)	// I - File to write
 		  cupsFilePuts(fp, "$ZEBRA_CPCL\n");
 		  break;
 
-         case BEEPRT :
+        case BEEPRT :
 		  cupsFilePuts(fp, "$BEEPRT\n");
 		  break;
 
